@@ -35,13 +35,7 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span
-            className="text-coral-red 
-             inline-block mt-3"
-          >
-            Nike
-          </span>
-          {" Shoes"}
+          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
         <p
           className="font-montserrat 
