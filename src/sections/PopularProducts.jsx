@@ -1,4 +1,4 @@
-import PopularProductCard from "../components/PopularProductCard";
+import { PopularProductCard } from "../components";
 import { products } from "../constants";
 
 function PopularProducts() {
@@ -6,7 +6,7 @@ function PopularProducts() {
     <section id="products" className="max-container max-sm:mt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
-          Our <span className="text-coral-red">Popular</span> Products
+          Our <span className="text-coral-green">Popular</span> Products
         </h2>
         <p className="ls:max-w-lg mt-2 font-montserrat text-slate-gray">
           Experience top-notch quality and styke with our sought-after
