@@ -1,6 +1,5 @@
 import { shoes, statistics } from "../constants";
-import Button from "../components/Button";
-import ShoeCard from "../components/ShoeCard";
+import { ShoeCard, Button } from "../components";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 import { useState } from "react";
@@ -22,7 +21,7 @@ const Hero = () => {
       >
         <p
           className="text-xl font-montserrat
-         text-coral-red  "
+         text-coral-green  "
         >
           Our Summer Collection
         </p>
@@ -35,7 +34,7 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
+          <span className="text-coral-green inline-block mt-3">Nike</span> Shoes
         </h1>
         <p
           className="font-montserrat 

@@ -12,7 +12,7 @@ const Nav = () => {
         <a href="/">
           <img
             src={headerLogo}
-            alt="Orange Nike logo with Nike written on the right side of it"
+            alt="OGreen Nike logo with Nike written on the right side of it"
             width={130}
             height={29}
           />

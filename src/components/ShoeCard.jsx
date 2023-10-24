@@ -11,7 +11,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
         rounded-xl
         ${
           bigShoeImg === imgURL.bigShoe
-            ? "border-coral-red"
+            ? "border-coral-green"
             : "border-transparent"
         } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}

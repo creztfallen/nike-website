@@ -1,5 +1,5 @@
 import { shoe8 } from "../assets/images";
-import Button from "../components/Button";
+import { Button } from "../components";
 
 const SuperQuality = () => {
   return (
@@ -15,8 +15,8 @@ const SuperQuality = () => {
         >
           We Provide you
           <br />
-          <span className="text-coral-red">Super </span>
-          <span className="text-coral-red">Quality</span> Shoes
+          <span className="text-coral-green">Super </span>
+          <span className="text-coral-green">Quality</span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwear
